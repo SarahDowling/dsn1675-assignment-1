@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+}
+
+.logo{
+	float: left;
+	width: 10%;
+}
+
+h1{
+	float: left;
+	margin: 0;
+}
+
+.buy{
+	float: right;
+}
+
+.top{
+	padding: 1em 0;
+	overflow: hidden;
+}
+
+nav{
+	clear: both;
+	overflow: hidden;
+}
+
+nav a{
+	text-decoration: none;
+	style: none;
+	display: block;
+	width: 100%;
+	padding: 1em 0;
+}
+
+nav li:hover{
+	background-color: gray;
+	display: block;
+}
+
+nav li{
+	text-align: center;
+	float: left;
+	width: 25%;
+}
+
+li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ol{
+	margin: 0;
+	padding: 0 ;
+	background-color: #DCDCDC;
+	overflow: hidden;
+}
