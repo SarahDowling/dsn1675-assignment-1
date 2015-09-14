@@ -18,6 +18,8 @@ a{
 figcaption{
 	position: absolute;
 	top: 12em;
+	color: #FFDDB5;
+	text-align: center;
 }
 
 figure{
