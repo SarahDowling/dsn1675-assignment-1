@@ -5,6 +5,10 @@ body{
 	font-color: #262315;
 }
 
+main{
+	padding-bottom: 2em;
+}
+
 a{
 	text-decoration: none;
 	style: none;
@@ -83,6 +87,10 @@ p{
 	margin-bottom: 2em;
 }
 
+footer p{
+	margin: 0;
+}
+
 .large-center{
 	width: 100%;
 }
@@ -150,7 +158,8 @@ ol{
 }
 
 footer{
-	margin: 2em;
+	background-color: #FFDDB5;
+	padding: 2em;
 }
 
 .everything-margin{
@@ -183,4 +192,27 @@ footer{
 .left-padding{
 	padding-left: 2em;
 	margin:0;
+}
+
+dt, dd{
+	margin: 0;
+}
+
+dt{
+	font-weight: bold;
+}
+
+.third-of-space{
+	width: 30%;
+	display: inline-block;
+	padding-right: 1%;
+}
+
+.tickets{
+	margin: 0;
+	padding: 0;
+}
+
+.right-space{
+	width: 94%;
 }
