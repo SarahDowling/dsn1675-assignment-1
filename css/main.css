@@ -8,6 +8,7 @@ body{
 a{
 	text-decoration: none;
 	style: none;
+	font-size: 1rem;
 }
 
 img{
@@ -71,7 +72,7 @@ h2{
 }
 
 .large-center{
-	width:100%;
+	width: 100%;
 }
 
 .buy{
@@ -84,7 +85,7 @@ h2{
 	color: #262315;
 }
 
-.buy:hover{
+.buy:hover, .full:hover{
 	background-color: #D9BC9A;
 }
 
@@ -133,7 +134,7 @@ header nav ol{
 }
 
 footer{
-	margin:2em;
+	margin: 2em;
 }
 
 .nav-footer li{
@@ -142,4 +143,16 @@ footer{
 
 .everything-margin{
 	margin: 2em;
+}
+
+.button{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+}
+
+.full{
+	width: 100%;
+	border: 2px solid #262315;
+	padding: 1rem;
 }
