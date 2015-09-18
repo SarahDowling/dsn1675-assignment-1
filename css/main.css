@@ -10,9 +10,14 @@ a{
 	style: none;
 }
 
+img{
+	width: 100%;
+}
+
 .banner{
 	width: 100%;
 	position: relative;
+	margin:0;
 }
 
 .seven-wonders{
@@ -23,11 +28,19 @@ a{
 	text-align: center;
 }
 
-.seven-wonders{
+.big-screen{
 	position: absolute;
-	top: 24%;
+	top: 35%;
 	width: 100%;
 	color: #FFDDB5;
+	text-align: center;
+}
+
+.showtime{
+	position: absolute;
+	top: 87%;
+	width: 100%;
+	color: #262315;
 	text-align: center;
 }
 
@@ -50,6 +63,15 @@ h1{
 
 h2{
 	font-size: 1.5rem;
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+}
+
+.large-center{
+	width:100%;
 }
 
 .buy{
@@ -72,12 +94,12 @@ h2{
 	background-color: #FFDDB5;
 }
 
-nav{
+header nav{
 	clear: both;
 	overflow: hidden;
 }
 
-nav a{
+header nav a{
 	text-decoration: none;
 	style: none;
 	display: block;
@@ -86,12 +108,12 @@ nav a{
 	color: #262315;
 }
 
-nav li:hover{
+header nav li:hover{
 	background-color: #BFA584;
 	display: block;
 }
 
-nav li{
+header nav li{
 	text-align: center;
 	float: left;
 	width: 25%;
@@ -103,13 +125,21 @@ li{
 	margin: 0;
 }
 
-nav ol{
+header nav ol{
 	margin: 0;
 	padding: 0 ;
 	background-color: #D9BC9A;
 	overflow: hidden;
 }
 
+footer{
+	margin:2em;
+}
+
 .nav-footer li{
 	width: 20%;
+}
+
+.everything-margin{
+	margin: 2em;
 }
