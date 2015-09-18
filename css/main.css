@@ -39,14 +39,20 @@ img{
 
 .showtime{
 	position: absolute;
-	top: 87%;
-	width: 100%;
+	top: 69%;
+	left: 27%;
 	color: #262315;
+	text-align: center;
+	border: 2px solid #262315;
+	padding: 1rem;
+	display: inline-block;
+	background-color: white;
+	width: 40%;
 	text-align: center;
 }
 
 figure{
-	margin:0;
+	margin:0 0 2em 0;
 }
 
 .logo{
@@ -65,10 +71,16 @@ h1{
 h2{
 	font-size: 1.5rem;
 	text-align: center;
+	margin: 0;
+	padding-bottom: 1em;
 }
 
-.center{
-	text-align: center;
+h3{
+	margin: 0;
+}
+
+p{
+	margin-bottom: 2em;
 }
 
 .large-center{
@@ -85,7 +97,7 @@ h2{
 	color: #262315;
 }
 
-.buy:hover, .full:hover{
+.buy:hover, .full:hover, .showtime:hover{
 	background-color: #D9BC9A;
 }
 
@@ -133,26 +145,42 @@ header nav ol{
 	overflow: hidden;
 }
 
+ol{
+	padding: 0;
+}
+
 footer{
 	margin: 2em;
 }
 
-.nav-footer li{
-	width: 20%;
-}
-
 .everything-margin{
-	margin: 2em;
+	margin: 0 2em;
 }
 
 .button{
 	display: inline-block;
 	width: 49%;
 	text-align: center;
+	margin-bottom: 3em;
 }
 
 .full{
 	width: 100%;
 	border: 2px solid #262315;
 	padding: 1rem;
+}
+
+.center{
+	text-align: center;
+	margin: 0;
+}
+
+.no-margin{
+	padding: 0;
+	margin: 0;
+}
+
+.left-padding{
+	padding-left: 2em;
+	margin:0;
 }
