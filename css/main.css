@@ -15,9 +15,18 @@ a{
 	position: relative;
 }
 
-figcaption{
+.seven-wonders{
 	position: absolute;
-	top: 12em;
+	top: 24%;
+	width: 100%;
+	color: #FFDDB5;
+	text-align: center;
+}
+
+.seven-wonders{
+	position: absolute;
+	top: 24%;
+	width: 100%;
 	color: #FFDDB5;
 	text-align: center;
 }
@@ -37,6 +46,10 @@ h1{
 	margin: 0;
 	color: #262315;
 	font-size: 2rem;
+}
+
+h2{
+	font-size: 1.5rem;
 }
 
 .buy{
@@ -95,4 +108,8 @@ nav ol{
 	padding: 0 ;
 	background-color: #D9BC9A;
 	overflow: hidden;
+}
+
+.nav-footer li{
+	width: 20%;
 }
