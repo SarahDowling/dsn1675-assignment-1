@@ -1,9 +1,40 @@
+@-moz-viewport {width: device-width; scale: 1; }
+@-ms-viewport {width: device-width; scale: 1; }
+@-o-viewport {width: device-width; scale: 1; }
+@-webkit-viewport {width: device-width; scale: 1; }
+@viewport {width: device-width; scale: 1; }
+
+html{
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
 /** #262315   #595438   #8C846C   #BFA584   #D9BC9A  #FFDDB5**/
 
 body{
 	margin: 0;
 	color: #262315;
 }
+
+/** END ALL - NEW HEADER ---------------------------------------------------**/
+
+.h1{
+	margin: 0 0 0.5em 0;
+	color: #262315;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+/** END HEADER - NEW HERO ---------------------------------------------------**/
+
+/** END HERO - NEW CONTENT --------------------------------------------------**/
 
 main{
 	padding-bottom: 2em;
@@ -59,17 +90,12 @@ figure{
 }
 
 .logo{
-	float: left;
-	width: 10%;
-	padding: 0 1em;
+	width: 30%;
+	margin: 0 auto;
+	display: block;
 }
 
-h1{
-	float: left;
-	margin: 0;
-	color: #262315;
-	font-size: 2rem;
-}
+
 
 h2{
 	font-size: 1.5rem;
@@ -95,13 +121,13 @@ footer p{
 }
 
 .buy{
-	float: right;
-	width: 10%;
-	padding: 0.5em 0;
-	margin: 0 1em 0 0;
+	width: 30%;
+	padding: 0.5em 1em;
 	text-align: center;
 	border: 2px solid #262315;
 	color: #262315;
+	display: block;
+	margin: 0 auto;
 }
 
 .buy:hover, .full:hover, .showtime:hover{
