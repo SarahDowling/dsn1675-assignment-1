@@ -16,45 +16,137 @@ html{
 	box-sizing: inherit;
 }
 
+/** END PRE - NEW ALL ------------------------------------------------------------------------**/
 /** #262315   #595438   #8C846C   #BFA584   #D9BC9A  #FFDDB5**/
 
 body{
 	margin: 0;
 	color: #262315;
 }
+main{
+	padding-bottom: 2em;
+}
+a{
+	text-decoration: none;
+	font-size: 1rem;
+}
+img{
+	width: 100%;
+}
+h2{
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 1em;
+}
+h3{
+	margin: 0;
+}
+p{
+	margin-bottom: 2em;
+}
+li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
 
-/** END ALL - NEW HEADER ---------------------------------------------------**/
+ol{
+	padding: 0;
+}
+.everything-margin{
+	margin: 0 2em;
+}
+.right-space{
+	width: 94%;
+}
+.full{
+	width: 100%;
+	border: 2px solid #262315;
+	padding: 1rem;
+}
 
+
+/** END ALL - NEW HEADER ----------------------------------------------------------------------------**/
+
+.logo{
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+}
 .h1{
 	margin: 0 0 0.5em 0;
 	color: #262315;
 	font-size: 1.4rem;
 	text-align: center;
 }
-
-/** END HEADER - NEW HERO ---------------------------------------------------**/
-
-/** END HERO - NEW CONTENT --------------------------------------------------**/
-
-main{
-	padding-bottom: 2em;
+.buy{
+	width: 30%;
+	padding: 0.5em 1em;
+	text-align: center;
+	border: 2px solid #262315;
+	color: #262315;
+	display: block;
+	margin: 0 auto;
+}
+.buy:hover, .full:hover, .showtime:hover{
+	background-color: #D9BC9A;
+}
+.top{
+	padding: 1em 0;
+	overflow: hidden;
+	background-color: #FFDDB5;
 }
 
-a{
+/** END HEADER - NEW NAV ---------------------------------------------------------------------------**/
+
+header nav{
+	clear: both;
+	overflow: hidden;
+}
+header nav a{
 	text-decoration: none;
-	font-size: 1rem;
+	display: block;
+	width: 100%;
+	padding: 1em 0;
+	color: #262315;
+}
+header nav li:hover{
+	background-color: #BFA584;
+	display: block;
+}
+header nav li{
+	text-align: center;
+	float: left;
+	width: 25%;
+}
+header nav ol{
+	margin: 0;
+	padding: 0 ;
+	background-color: #D9BC9A;
+	overflow: hidden;
 }
 
-img{
-	width: 100%;
-}
+/** END NAV - NEW BANNER --------------------------------------------------------------------------**/
 
 .banner{
 	width: 100%;
 	position: relative;
 	margin:0;
 }
-
+.no-margin{
+	padding: 0;
+	margin: 0;
+}
+figure{
+	margin:0 0 2em 0;
+}
+.button{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	margin-bottom: 3em;
+}
 .seven-wonders{
 	position: absolute;
 	top: 24%;
@@ -62,6 +154,16 @@ img{
 	color: #FFDDB5;
 	text-align: center;
 }
+/** END NAV - NEW INFO --------------------------------------------------------------------------**/
+
+.large-center{
+	width: 100%;
+}
+.left-padding{
+	padding-left: 2em;
+	margin:0;
+}
+/** END INFO - NEW TICKETS --------------------------------------------------------------------------**/
 
 .big-screen{
 	position: absolute;
@@ -70,7 +172,6 @@ img{
 	color: #FFDDB5;
 	text-align: center;
 }
-
 .showtime{
 	position: absolute;
 	top: 69%;
@@ -84,159 +185,73 @@ img{
 	width: 40%;
 	text-align: center;
 }
-
-figure{
-	margin:0 0 2em 0;
-}
-
-.logo{
-	width: 30%;
-	margin: 0 auto;
-	display: block;
-}
-
-
-
-h2{
-	font-size: 1.5rem;
-	text-align: center;
+.tickets{
 	margin: 0;
-	padding-bottom: 1em;
-}
-
-h3{
-	margin: 0;
-}
-
-p{
-	margin-bottom: 2em;
-}
-
-footer p{
-	margin: 0;
-}
-
-.large-center{
-	width: 100%;
-}
-
-.buy{
-	width: 30%;
-	padding: 0.5em 1em;
-	text-align: center;
-	border: 2px solid #262315;
-	color: #262315;
-	display: block;
-	margin: 0 auto;
-}
-
-.buy:hover, .full:hover, .showtime:hover{
-	background-color: #D9BC9A;
-}
-
-.top{
-	padding: 1em 0;
-	overflow: hidden;
-	background-color: #FFDDB5;
-}
-
-header nav{
-	clear: both;
-	overflow: hidden;
-}
-
-header nav a{
-	text-decoration: none;
-	display: block;
-	width: 100%;
-	padding: 1em 0;
-	color: #262315;
-}
-
-header nav li:hover{
-	background-color: #BFA584;
-	display: block;
-}
-
-header nav li{
-	text-align: center;
-	float: left;
-	width: 25%;
-}
-
-li{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-header nav ol{
-	margin: 0;
-	padding: 0 ;
-	background-color: #D9BC9A;
-	overflow: hidden;
-}
-
-ol{
 	padding: 0;
 }
-
-footer{
-	background-color: #FFDDB5;
-	padding: 2em;
+.right-space{
+	width: 94%;
 }
-
-.everything-margin{
-	margin: 0 2em;
-}
-
-.button{
-	display: inline-block;
-	width: 49%;
-	text-align: center;
-	margin-bottom: 3em;
-}
-
-.full{
-	width: 100%;
-	border: 2px solid #262315;
-	padding: 1rem;
-}
-
 .center{
 	text-align: center;
 	margin: 0;
 }
 
-.no-margin{
-	padding: 0;
-	margin: 0;
-}
 
-.left-padding{
-	padding-left: 2em;
-	margin:0;
-}
+/** END TICKETS - NEW SCHEDULE --------------------------------------------------------------------------**/
 
 dt, dd{
 	margin: 0;
 }
-
 dt{
 	font-weight: bold;
 }
-
 .third-of-space{
 	width: 30%;
 	display: inline-block;
 	padding-right: 1%;
 }
 
-.tickets{
+/** END SCHEDULE - NEW FOOTER --------------------------------------------------------------------------**/
+
+footer{
+	background-color: #FFDDB5;
+	padding: 2em;
+}
+footer p{
 	margin: 0;
-	padding: 0;
 }
 
-.right-space{
-	width: 94%;
+/** END -------------------------------------------------------------------------------------------------**/
+
+
+@media only screen and (min-width: 30em) {
+	.facts dt{
+		position: absolute;
+		width: 33%;
+		top: 0;
+	}
+	.facts dd{
+		float: left;
+		width: 33%;
+		padding-top: 1.5rem;
+	}
+	.facts{
+		overflow: hidden;
+		position: relative;
+	}
+	.facts dt:nth-child(3){
+		left: 33%;
+	}
+	.facts dt:nth-child(5){
+		left: 66%;
+	}
 }
+
+
+
+
+
+
+
+
