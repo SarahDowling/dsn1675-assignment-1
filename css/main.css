@@ -34,7 +34,6 @@ img{
 	width: 100%;
 }
 h2{
-	font-size: 1.5rem;
 	text-align: center;
 	margin: 0;
 	padding-bottom: 1em;
@@ -44,6 +43,7 @@ h3{
 }
 p{
 	margin-bottom: 2em;
+	margin-top: 0.5em;
 }
 li{
 	list-style: none;
@@ -97,6 +97,9 @@ ol{
 	overflow: hidden;
 	background-color: #FFDDB5;
 }
+.nav-padding{
+	padding: 0 5%;
+}
 
 /** END HEADER - NEW NAV ---------------------------------------------------------------------------**/
 
@@ -130,7 +133,7 @@ header nav ol{
 /** END NAV - NEW BANNER --------------------------------------------------------------------------**/
 
 .banner{
-	width: 100%;
+	width: 130%;
 	position: relative;
 	margin:0;
 }
@@ -149,10 +152,15 @@ figure{
 }
 .seven-wonders{
 	position: absolute;
-	top: 24%;
+	top: 31%;
 	width: 100%;
-	color: #FFDDB5;
+	color: white;
 	text-align: center;
+	font-size: 1rem;
+	margin: 0 0.5em;
+}
+.h2-size{
+	font-size: 1.3rem;
 }
 /** END NAV - NEW INFO --------------------------------------------------------------------------**/
 
@@ -173,9 +181,6 @@ figure{
 	text-align: center;
 }
 .showtime{
-	position: absolute;
-	top: 69%;
-	left: 27%;
 	color: #262315;
 	text-align: center;
 	border: 2px solid #262315;
@@ -220,6 +225,11 @@ footer{
 }
 footer p{
 	margin: 0;
+}
+.date-list{
+	padding-bottom: 1em;
+	padding-right: 1em;
+	}
 }
 
 /** END -------------------------------------------------------------------------------------------------**/
