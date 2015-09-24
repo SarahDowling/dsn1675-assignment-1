@@ -55,7 +55,7 @@ ol{
 	padding: 0;
 }
 .everything-margin{
-	margin: 0 2em;
+	margin: 0 1em;
 }
 .right-space{
 	width: 94%;
@@ -64,6 +64,7 @@ ol{
 	width: 100%;
 	border: 2px solid #262315;
 	padding: 1rem;
+	display: block;
 }
 
 
@@ -145,10 +146,10 @@ figure{
 	margin:0 0 2em 0;
 }
 .button{
-	display: inline-block;
-	width: 49%;
+	display: block;
+	width: 100%;
 	text-align: center;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 .seven-wonders{
 	position: absolute;
@@ -171,6 +172,12 @@ figure{
 	padding-left: 2em;
 	margin:0;
 }
+.facts dt:nth-child(3){
+	padding-top: 0.25em;
+}
+.facts dt:nth-child(5){
+	padding-top: 0.25em;
+}
 /** END INFO - NEW TICKETS --------------------------------------------------------------------------**/
 
 .big-screen{
@@ -181,6 +188,9 @@ figure{
 	text-align: center;
 }
 .showtime{
+	position: absolute;
+	top: 69%;
+	left: 27%;
 	color: #262315;
 	text-align: center;
 	border: 2px solid #262315;
@@ -235,7 +245,7 @@ footer p{
 /** END -------------------------------------------------------------------------------------------------**/
 
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 60em) {
 	.facts dt{
 		position: absolute;
 		width: 33%;
@@ -257,11 +267,3 @@ footer p{
 		left: 66%;
 	}
 }
-
-
-
-
-
-
-
-
