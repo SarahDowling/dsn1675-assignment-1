@@ -332,3 +332,14 @@ footer p{
 	}
 }
 
+@media only screen and (min-width: 56em) {
+	h2{
+		font-size: 3em;
+	}
+	h3{
+		font-size: 2em;
+	}
+	.seven-wonders{
+		top: 40%;
+	}
+}
