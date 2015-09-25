@@ -50,15 +50,12 @@ li{
 	padding: 0;
 	margin: 0;
 }
-
 ol{
 	padding: 0;
+	margin: 0;
 }
 .everything-margin{
-	margin: 0 1em;
-}
-.right-space{
-	width: 94%;
+	padding: 0 1em;
 }
 .full{
 	width: 100%;
@@ -76,7 +73,6 @@ ol{
 	display: block;
 }
 .h1{
-	margin: 0 0 0.5em 0;
 	color: #262315;
 	font-size: 1.4rem;
 	text-align: center;
@@ -97,9 +93,6 @@ ol{
 	padding: 1em 0;
 	overflow: hidden;
 	background-color: #FFDDB5;
-}
-.nav-padding{
-	padding: 0 5%;
 }
 
 /** END HEADER - NEW NAV ---------------------------------------------------------------------------**/
@@ -136,13 +129,11 @@ header nav ol{
 .banner{
 	width: 100%;
 	margin:0;
+	display: block;
 }
 .no-margin{
 	padding: 0;
 	margin: 0;
-}
-figure{
-	margin:0 0 2em 0;
 }
 .button{
 	display: block;
@@ -152,6 +143,8 @@ figure{
 }
 .seven-wonders-wrap{
 	position: relative;
+	overflow: hidden;
+	margin: 0;
 }
 .seven-wonders{
 	position: absolute;
@@ -160,7 +153,6 @@ figure{
 	color: white;
 	text-align: center;
 	font-size: 1rem;
-	margin: 0 0.5em;
 	padding-top: 0.5em;
 }
 .h2-size{
@@ -172,14 +164,20 @@ figure{
 	width: 100%;
 }
 .left-padding{
-	padding-left: 2em;
-	margin:0;
+	padding-left: 1em;
 }
 .facts dt:nth-child(3){
 	padding-top: 0.25em;
 }
 .facts dt:nth-child(5){
 	padding-top: 0.25em;
+}
+.nav-footer{
+	padding: 0 1em;
+	margin: 0;
+}
+.nav-padding{
+	padding: 0 5%;
 }
 /** END INFO - NEW TICKETS --------------------------------------------------------------------------**/
 
@@ -208,7 +206,6 @@ figure{
 	padding: 0;
 }
 .right-space{
-	width: 94%;
 }
 .center{
 	text-align: center;
@@ -234,7 +231,8 @@ dt{
 
 footer{
 	background-color: #FFDDB5;
-	padding: 2em;
+	margin: 0;
+	padding: 0 1em;
 }
 footer p{
 	margin: 0;
@@ -242,8 +240,8 @@ footer p{
 .date-list{
 	padding-bottom: 1em;
 	padding-right: 1em;
-	}
 }
+
 
 /** END -------------------------------------------------------------------------------------------------**/
 
