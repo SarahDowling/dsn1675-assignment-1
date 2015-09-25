@@ -36,7 +36,7 @@ img{
 h2{
 	text-align: center;
 	margin: 0;
-	padding-bottom: 1em;
+	padding-bottom: 0.5em;
 }
 h3{
 	margin: 0;
@@ -145,7 +145,7 @@ header nav ol{
 .seven-wonders-wrap{
 	position: relative;
 	overflow: hidden;
-	margin: 0;
+	margin: 0 0 1em 0;
 }
 .seven-wonders{
 	position: absolute;
@@ -244,6 +244,24 @@ footer p{
 }
 /** END -------------------------------------------------------------------------------------------------**/
 
+@media only screen and (min-width: 23em) {
+	.seven-wonders{
+		top: 23%;
+	}
+	.hero-p{
+		padding: 0 1em;
+	}
+}
+
+@media only screen and (min-width: 30em) {
+	.nav-padding{
+		padding: 0;
+	}
+	.seven-wonders{
+		top: 43%;
+	}
+
+}
 
 @media only screen and (min-width: 60em) {
 	.facts dt{
