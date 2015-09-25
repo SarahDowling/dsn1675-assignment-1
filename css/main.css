@@ -308,6 +308,8 @@ footer p{
 		position: absolute;
 		top: 3%;
 		right: 2%;
+		width: 15%;
+		text-align: center;
 	}
 	.facts dt{
 		position: absolute;
