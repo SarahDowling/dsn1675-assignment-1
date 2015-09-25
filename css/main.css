@@ -10,6 +10,8 @@ html{
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+
+	font: normal 100%/1.3 Verdana,sans-serif;
 }
 
 *, *::before, *::after{
@@ -282,6 +284,10 @@ footer p{
 }
 
 @media only screen and (min-width: 30em) {
+	html{
+		font-size: 110%;
+		line-height: 1.4;
+	}
 	.nav-padding{
 		padding: 0;
 	}
@@ -291,9 +297,6 @@ footer p{
 	h1{
 		display: inline-block;
 		vertical-align: middle;
-	}
-	.h2-size, .atlantis{
-		font-size: 3em;
 	}
 	.logo{
 		display: inline-block;
@@ -343,16 +346,71 @@ footer p{
 	.big-screen{
 		top: 30%;
 	}
-}
+	html{
+		font-size: 120%;
+		line-height: 1.5;
+	}
+
 
 @media only screen and (min-width: 56em) {
-	h2{
-		font-size: 3em;
-	}
-	h3{
-		font-size: 2em;
-	}
 	.seven-wonders{
 		top: 40%;
+	}
+}
+
+@media only screen and (min-width: 75em) {
+	.masthead{
+		float: left;
+		width: 20%;
+	}
+	main{
+		float: right;
+		width: 80%;
+	}
+	footer{
+		clear: both;
+	}
+	header nav li{
+		display: block;
+		clear: both;
+		width: 100%;
+	}
+	.logo{
+		margin: 0 auto;
+		width: 30%;
+		display: block;
+	}
+	footer{
+		overflow: hidden;
+		padding: 1em;
+	}
+	.footer-left{
+		width: 20%;
+		float: left;
+		overflow: hidden;
+	}
+	.footer-right{
+		width: 80%;
+		float: right;
+		overflow: hidden;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media print{
+	nav{
+		display: none;
+	}
+	main a::after{
+		content: " (" attr(href) ")";
+		color: #999;
 	}
 }
