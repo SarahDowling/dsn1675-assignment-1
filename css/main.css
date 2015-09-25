@@ -130,6 +130,7 @@ header nav ol{
 	width: 100%;
 	margin:0;
 	display: block;
+	position: relative;
 }
 .no-margin{
 	padding: 0;
@@ -172,10 +173,6 @@ header nav ol{
 .facts dt:nth-child(5){
 	padding-top: 0.25em;
 }
-.nav-footer{
-	padding: 0 1em;
-	margin: 0;
-}
 .nav-padding{
 	padding: 0 5%;
 }
@@ -190,15 +187,15 @@ header nav ol{
 }
 .showtime{
 	position: absolute;
-	top: 69%;
-	left: 27%;
+	top: 68%;
+	left: 10%;
 	color: #262315;
 	text-align: center;
 	border: 2px solid #262315;
-	padding: 1rem;
+	padding: 0.5rem;
 	display: inline-block;
 	background-color: white;
-	width: 40%;
+	width: 80%;
 	text-align: center;
 }
 .tickets{
@@ -241,8 +238,10 @@ footer p{
 	padding-bottom: 1em;
 	padding-right: 1em;
 }
-
-
+.nav-footer{
+	padding: 0 1em;
+	margin: 0;
+}
 /** END -------------------------------------------------------------------------------------------------**/
 
 
