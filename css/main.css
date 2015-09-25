@@ -186,7 +186,7 @@ header nav ol{
 
 .big-screen{
 	position: absolute;
-	top: 35%;
+	top: 30%;
 	width: 100%;
 	color: white;
 	text-align: center;
@@ -214,7 +214,9 @@ header nav ol{
 	text-align: center;
 	margin: 0;
 }
-
+.now-playing-title{
+	clear: both;
+}
 
 /** END TICKETS - NEW SCHEDULE --------------------------------------------------------------------------**/
 
@@ -271,8 +273,11 @@ footer p{
 	.buy{
 		width: 30%;
 	}
-	.h2-size{
+	.h2-size, .atlantis{
 		font-size: 2em;
+	}
+	.big-screen{
+		top: 10%;
 	}
 }
 
@@ -287,7 +292,7 @@ footer p{
 		display: inline-block;
 		vertical-align: middle;
 	}
-	.h2-size{
+	.h2-size, .atlantis{
 		font-size: 3em;
 	}
 	.logo{
@@ -326,9 +331,17 @@ footer p{
 	}
 	.side-by-left{
 		float: left;
+		width: 45%
 	}
 	.side-by-right{
 		float: right;
+		width: 45%
+	}
+}
+
+@media only screen and (min-width: 45em) {
+	.big-screen{
+		top: 30%;
 	}
 }
 
