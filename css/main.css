@@ -72,7 +72,7 @@ ol{
 	margin: 0 auto;
 	display: block;
 }
-.h1{
+h1{
 	color: #262315;
 	font-size: 1.4rem;
 	text-align: center;
@@ -260,7 +260,21 @@ footer p{
 	.seven-wonders{
 		top: 43%;
 	}
-
+	h1{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.logo{
+		display: inline-block;
+		width: 10%;
+		vertical-align: middle;
+		margin-left: 1em;
+	}
+	.buy{
+		display: inline-block;
+		margin-left: 10%;
+		vertical-align: middle;
+	}
 }
 
 @media only screen and (min-width: 60em) {
